@@ -1,0 +1,26 @@
+body{
+    background-image: -webkit-linear-gradient(103deg,rgb(226, 212, 50) 50%,rgba(255, 132, 0, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input{
+    width: 40%;
+    height: 5%;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 10px 0px 15px 0px;
+    box-shadow: 1px 1px 2px 1px black;
+}
+#result{
+    width: 20%;
+}
+
+.nav a{
+    color: black;
+}
+
+#button{
+    background-color: rgb(250, 171, 24);
+}

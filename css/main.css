@@ -1,0 +1,74 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-bottom: 0;
+  background-image: -webkit-linear-gradient(103deg, rgb(226,212,50) 50%, rgba(255,132,0,1) 100%);
+  /* font-weight: 900; */
+  font-family: "Times New Roman", Times, serif;
+  /*font-size: 45px;*/
+  text-shadow: 2px 2px 5px rgb(226,212,50);
+}
+
+.lead {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2vw;
+}
+
+.main {
+  background-image: url("../img/market1.png");
+  width: 100%;
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dobozok {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.doboz {
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(226,212,50);
+  margin: 2rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(255,132,0,1);
+}
+@media screen and (max-width: 991px) {
+  main {
+    height: 1000px;
+  }
+  .doboz {
+    height: 15rem;
+  }
+  .doboz p {
+    padding-top: 0;
+  }
+}
+
+.doboz p {
+  font-size: 5rem;
+
+  color: black;
+  text-shadow: 10px 10px 20px black;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.doboz a {
+  text-decoration: none;
+}
+
+.doboz p:hover {
+  color: rgba(255,132,0,1);
+}

@@ -1,0 +1,41 @@
+footer{
+    
+    width: 100%;
+    background-image: -webkit-linear-gradient(103deg, rgba(255,132,0,1) 10%, rgb(226,212,50) 100%);
+    font-weight: 900;
+}
+
+/*---Social media section ---*/
+
+.social a {
+    font-size: 2em;
+    padding: 1rem;    
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39
+}
+
+.fa-instagram {
+    color: #517fa8;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #a36c6c;
+}
